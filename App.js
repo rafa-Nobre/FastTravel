@@ -1,10 +1,11 @@
 import {StatusBar, StyleSheet, Text, View} from 'react-native';
 import HomeScreen from './src/screens/Home/HomeScreen';
+import Post from './src/components/Post/Post';
 
 const App = () => {
   return (
     <>
-      <HomeScreen />
+      <Post />
       <StatusBar barStyle={'default'} />
     </>
   );

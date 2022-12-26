@@ -27,6 +27,7 @@ export default StyleSheet.create({
   buttonText: {
     fontSize: 16,
     fontWeight: 'bold',
+    color: 'black',
   },
   searchButton: {
     flexDirection: 'row',
@@ -45,5 +46,7 @@ export default StyleSheet.create({
   searchButtonText: {
     fontSize: 16,
     fontWeight: 'bold',
+    marginLeft: 10,
+    color: 'black',
   },
 });
