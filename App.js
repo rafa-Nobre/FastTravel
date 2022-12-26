@@ -1,6 +1,8 @@
 import {StatusBar, StyleSheet, Text, View} from 'react-native';
 import HomeScreen from './src/screens/Home/HomeScreen';
 import Post from './src/components/Post/Post';
+import SearchResultsScreen from './src/screens/SearchResults/SearchResultsScreen';
+import DestinationSearchScreen from './src/screens/DestinationSearch/DestinationSearchScreen';
 import feed from './assets/data/feed';
 
 const dataSample = feed[2];
@@ -8,7 +10,8 @@ const dataSample = feed[2];
 const App = () => {
   return (
     <>
-      <Post postData={dataSample} />
+      {/* <Post postData={dataSample} /> */}
+      <DestinationSearchScreen />
       <StatusBar barStyle={'default'} />
     </>
   );
