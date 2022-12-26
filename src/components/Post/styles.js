@@ -10,7 +10,7 @@ export default StyleSheet.create({
     resizeMode: 'cover',
     borderRadius: 10,
   },
-  headerText: {
+  bedrooms: {
     marginVertical: 10,
     color: '#5b5b5b',
   },
