@@ -1,6 +1,9 @@
 import 'react-native-gesture-handler';
 import {StatusBar, StyleSheet, Text, View} from 'react-native';
 import Router from './src/routes/Router';
+import {enableLatestRenderer} from 'react-native-maps';
+
+enableLatestRenderer();
 
 const App = () => {
   return (
