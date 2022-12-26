@@ -1,18 +1,12 @@
+import 'react-native-gesture-handler';
 import {StatusBar, StyleSheet, Text, View} from 'react-native';
-import HomeScreen from './src/screens/Home/HomeScreen';
-import Post from './src/components/Post/Post';
-import SearchResultsScreen from './src/screens/SearchResults/SearchResultsScreen';
-import DestinationSearchScreen from './src/screens/DestinationSearch/DestinationSearchScreen';
-import GuestsScreen from './src/screens/Guests/GuestsScreen';
-import feed from './assets/data/feed';
-
-const dataSample = feed[2];
+import Router from './src/routes/Router';
 
 const App = () => {
   return (
     <>
       {/* <Post postData={dataSample} /> */}
-      <GuestsScreen />
+      <Router />
       <StatusBar barStyle={'default'} />
     </>
   );

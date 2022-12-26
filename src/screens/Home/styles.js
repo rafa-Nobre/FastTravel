@@ -38,7 +38,7 @@ export default StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     position: 'absolute',
-    top: 20,
+    top: 50,
     elevation: 2,
     zIndex: 100,
     backgroundColor: '#ffffff',
