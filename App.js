@@ -3,6 +3,7 @@ import HomeScreen from './src/screens/Home/HomeScreen';
 import Post from './src/components/Post/Post';
 import SearchResultsScreen from './src/screens/SearchResults/SearchResultsScreen';
 import DestinationSearchScreen from './src/screens/DestinationSearch/DestinationSearchScreen';
+import GuestsScreen from './src/screens/Guests/GuestsScreen';
 import feed from './assets/data/feed';
 
 const dataSample = feed[2];
@@ -11,7 +12,7 @@ const App = () => {
   return (
     <>
       {/* <Post postData={dataSample} /> */}
-      <DestinationSearchScreen />
+      <GuestsScreen />
       <StatusBar barStyle={'default'} />
     </>
   );
